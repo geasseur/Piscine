@@ -46,19 +46,36 @@ section article img{
   bottom:50px;
 }
 
-@media (min-width: 500px) and (min-width: 900px){
+/*****************TABLETTE****************/
+
+@media (min-width: 600px) and (max-width: 1200px){
   p{
-    font-size: 1.1em;
+    font-size: 1.3em;
+  }
+
+  article{
+    height: 400px;
   }
 
   header nav ul li, footer nav ul li{
+    width: 10%;
     display: inline-block;
+    margin:0 10% 0 10%;
+  }
+
+  ul{
+    width: 90%;
+  }
+
+
+  ul:nth-child(0n+2){
+      margin:0 0% 0 0%;
   }
 }
 
 /**************************ORDINATEUR******************/
 
-@media (min-width: 900px) and (min-width: 1200px){
+@media (min-width: 1200px) and (max-width: 1600px){
 
 
   p{
