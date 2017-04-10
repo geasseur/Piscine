@@ -21,12 +21,13 @@ a{
 }
 
 h1, h2, h3{
+  font-size: 2em;
   background-color: white;
   text-align: center;
 }
 
 footer nav ul, footer nav li, header nav ul, header nav ul li{
-  border:1px solid black;
+  font-size: 1.3em;
   width: 30%;
   margin:auto;
 }
@@ -42,5 +43,26 @@ table{
 }
 
 section{
-  height: 300px;
+  height: 400px;
+}
+
+td{
+  font-size: 1.7em;
+}
+
+/**************************ORDINATEUR******************/
+
+@media (min-width: 1200px) and (max-width: 1600px){
+
+  section{
+    display: inline-block;
+    width: 49%;
+    margin:0;
+    height: 500px;
+  }
+
+
+
+
+
 }
