@@ -24,3 +24,23 @@ h1, h2, h3{
   background-color: white;
   text-align: center;
 }
+
+footer nav ul, footer nav li, header nav ul, header nav ul li{
+  border:1px solid black;
+  width: 30%;
+  margin:auto;
+}
+
+table, tr, td{
+  border:1px solid black;
+  width: 95%;
+  margin:auto;
+}
+
+table{
+  height: 80%;
+}
+
+section{
+  height: 300px;
+}
