@@ -1,4 +1,4 @@
-/***********************Mobile***********************/
+/***********************MOBILE***********************/
 
 
 body{
@@ -47,10 +47,40 @@ section article img{
 }
 
 @media (min-width: 500px) and (min-width: 900px){
+  p{
+    font-size: 1.1em;
+  }
+
+  header nav ul li, footer nav ul li{
+    display: inline-block;
+  }
+}
+
+/**************************ORDINATEUR******************/
+
+@media (min-width: 900px) and (min-width: 1200px){
+
+
+  p{
+    font-size: 1.2em;
+    color: white;
+  }
+
+  header nav ul li, footer nav ul li{
+    display: inline-block;
+  }
 
   section{
     display: inline-block;
     width: 45%;
+  }
+
+  .prolo{
+    margin:20px 1% 20px 2.5%;
+  }
+
+  .luxe{
+    margin:20px 0 20px 1%;
   }
 
 }
