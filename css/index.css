@@ -1,18 +1,56 @@
 /***********************Mobile***********************/
 
+
+body{
+  background-color:rgba(6, 6, 6, 0.5);
+}
+
 Main{
   font-family: Arial;
+  background-color: rgba(244, 201, 206, 0.51);
 }
 
 header, footer{
   font-family: serif;
+  background-color: rgba(242, 16, 0, 0.5);
 }
 
 a{
   text-decoration: none;
   color:black;
+  font-size: 2em;
 }
 
 h1, h2, h3, main, article, section{
   border:1px solid black;
+}
+
+h1, h2, h3{
+  background-color: white;
+  text-align: center;
+}
+ul, li{
+  width: 30%;
+  margin: auto;
+  list-style-type: none;
+}
+
+article{
+  height: 300px;
+}
+
+section article img{
+  float: right;
+  height: 200px;
+  width: 200px;
+  bottom:50px;
+}
+
+@media (min-width: 500px) and (min-width: 900px){
+
+  section{
+    display: inline-block;
+    width: 45%;
+  }
+
 }
