@@ -69,9 +69,6 @@ article iframe, article{
 
   @media (min-width: 1200px) and (max-width: 1600px){
 
-    *{
-      border: 1px solid black;
-    }
 
     footer nav ul li, footer nav ul li, header nav ul li, header nav ul li{
       display: inline-block;
