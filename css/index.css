@@ -53,7 +53,7 @@ section article img{
 
   /*Il doit probablement avoir un moyen d'optimiser ce qui suit, mais j'ai pas le temps
   Sans parler du fait que je ne vois même pas si ça fonctionne*/
-
+  /*Finalement je l'ai enlevé, car j'avais des erreurs en cascade sur validator
   .prolo article img:nth-child(0n+1){
     background-image: image(images/imagesTablette/piscinegonflable1.png);
   }
@@ -74,7 +74,7 @@ section article img{
 
   .luxe article img:nth-child(0n+3){
     background-image: image(images/imagesTablette/piscineluxe3.jpg);
-  }
+  }*/
 
   p{
     font-size: 1.3em;
@@ -105,6 +105,7 @@ section article img{
 
 @media (min-width: 1200px) and (max-width: 1600px){
 
+/*Finalement je l'ai enlevé, car j'avais des erreurs en cascade sur validator
   .prolo article img:nth-child(0n+1){
     background-image: image(images/imagesOrdinateur/piscineGonflable1.jpg);
   }
@@ -126,6 +127,7 @@ section article img{
   .luxe article img:nth-child(0n+3){
     background-image: image(images/imagesOrdinateur/piscineluxe3.png);
   }
+  */
 
   p{
     font-size: 1.2em;
