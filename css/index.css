@@ -48,7 +48,34 @@ section article img{
 
 /*****************TABLETTE****************/
 
-@media (min-width: 600px) and (max-width: 1200px){
+@media (min-width: 800px) and (max-width: 1200px){
+
+
+  /*Il doit probablement avoir un moyen d'optimiser ce qui suit, mais j'ai pas le temps
+  Sans parler du fait que je ne vois même pas si ça fonctionne*/
+
+  .prolo article img:nth-child(0n+1){
+    background-image: image(images/imagesTablette/piscinegonflable1.png);
+  }
+  .prolo article img:nth-child(0n+2){
+    background-image: image(images/imagesTablette/piscinegonflable2.png);
+  }
+  .prolo article img:nth-child(0n+3){
+    background-image: image(images/imagesTablette/piscinegonflable3.png);
+  }
+
+  .luxe article img:nth-child(0n+1){
+    background-image: image(images/imagesTablette/piscineluxe1.jpg);
+  }
+
+  .luxe article img:nth-child(0n+2){
+    background-image: image(images/imagesTablette/piscineluxe2.jpg);
+  }
+
+  .luxe article img:nth-child(0n+3){
+    background-image: image(images/imagesTablette/piscineluxe3.jpg);
+  }
+
   p{
     font-size: 1.3em;
   }
@@ -78,6 +105,27 @@ section article img{
 
 @media (min-width: 1200px) and (max-width: 1600px){
 
+  .prolo article img:nth-child(0n+1){
+    background-image: image(images/imagesOrdinateur/piscineGonflable1.jpg);
+  }
+  .prolo article img:nth-child(0n+2){
+    background-image: image(images/imagesOrdinateur/piscineGonflable2.jpg);
+  }
+  .prolo article img:nth-child(0n+3){
+    background-image: image(images/imagesOrdinateur/piscineGonflable3.jpg);
+  }
+
+  .luxe article img:nth-child(0n+1){
+    background-image: image(images/imagesOrdinateur/piscineluxe1.png);
+  }
+
+  .luxe article img:nth-child(0n+2){
+    background-image: image(images/imagesOrdinateur/piscineluxe2.jpg);
+  }
+
+  .luxe article img:nth-child(0n+3){
+    background-image: image(images/imagesOrdinateur/piscineluxe3.png);
+  }
 
   p{
     font-size: 1.2em;
