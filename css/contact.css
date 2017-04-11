@@ -6,12 +6,12 @@ body{
 
 Main{
   font-family: Arial;
-  background-color: rgba(244, 201, 206, 0.51);
+  background-color: rgba(149, 200, 242, 0.51);
 }
 
 header, footer{
   font-family: serif;
-  background-color: rgba(242, 16, 0, 0.5);
+  background-color: rgba(0, 242, 46, 0.5);
 }
 
 footer nav ul li, footer nav ul li, header nav ul li, header nav ul li{
@@ -43,7 +43,11 @@ form{
 
 form textarea{
   width: 85%;
-  height: 70%;
+  height: 60%;
+}
+
+input{
+  width: 10%;
 }
 
 label{
