@@ -58,3 +58,44 @@ article iframe, article{
   width: 95%;
   margin: auto;
 }
+
+/*************************Tablette*********************/
+@media (min-width: 600px) and (max-width: 1200px){
+
+
+
+}
+  /**************************ORDINATEUR******************/
+
+  @media (min-width: 1200px) and (max-width: 1600px){
+
+    *{
+      border: 1px solid black;
+    }
+
+    footer nav ul li, footer nav ul li, header nav ul li, header nav ul li{
+      display: inline-block;
+      padding:20px 0 20px 0;
+    }
+
+    section{
+      width: 45%;
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    form{
+      height: 450px;
+    }
+
+    .formulaire{
+      margin:0 1.5% 0 2.5%;
+    }
+
+    .Carte{
+      margin:0 2.5% 0 1.5%;
+    }
+
+
+
+}
